@@ -1,0 +1,20 @@
+{
+  "name": "electron-text-editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electromon main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electromon": "^1.0.10",
+    "electron": "^7.1.5"
+  },
+  "dependencies": {
+    "showdown": "^1.9.1"
+  }
+}

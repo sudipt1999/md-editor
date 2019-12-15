@@ -1,0 +1,41 @@
+*{
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none !important;
+    cursor: pointer;
+}
+
+body{
+    background-color: aqua;
+}
+
+#file-names {
+    background-color: blueviolet;
+}
+
+#file-list{
+    background-color: #fff;
+    margin-top: 40px !important;
+}
+
+.file-name{
+    background-color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom:solid 3px brown;
+    padding:5px !important;
+}
+
+#file-path{
+    font-style: italic;
+}
+
+#file-content{
+    padding-left: 50px !important;
+}
+
+.fp{
+    background-color: cornsilk;
+    color: #000;
+    padding-left: 50px !important;
+}
