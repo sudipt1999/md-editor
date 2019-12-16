@@ -11,6 +11,7 @@ body{
 
 #file-names {
     background-color: blueviolet;
+    min-height: 90vh;
 }
 
 #file-list{
@@ -38,4 +39,10 @@ body{
     background-color: cornsilk;
     color: #000;
     padding-left: 50px !important;
+}
+
+.edit-area-work{
+    height: 80vh !important;
+    width: 100% !important;
+    padding-left: 40px !important;
 }

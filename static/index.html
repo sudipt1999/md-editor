@@ -18,7 +18,7 @@
                     </ul>
                 </div>
                 <div class="col-8" id="file">
-                    <div class="row">
+                    <div class="row" id="work-area">
                         <div class="col-12 fp">
                             <h5 class="path">Path: <span id="file-path"></span></h5>
                         </div>
@@ -29,6 +29,44 @@
                 </div>
             </div>
         </div>
+
+
+        <!-- INPUT FILE MODAL FOR CREATING NEW FILES -->
+        <div class="modal fade mx-auto" id="create-new-file" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Create New File</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <input type="text" id="newFileName" placeholder="Enter md file name"/>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary mr-auto ml-5" id="create-file">Create File</button>
+                  <button type="button" class="btn btn-primary ml-auto mr-5" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 <script src="./js/index.js"></script>
 </html>

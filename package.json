@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electromon main.js"
+    "start": "electron main.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,9 @@
     "electron": "^7.1.5"
   },
   "dependencies": {
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0",
     "showdown": "^1.9.1"
   }
 }
